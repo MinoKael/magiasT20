@@ -3,7 +3,7 @@
 
  Também é possível salvar suas magias ao clicar no olho da tormenta e visualiza-lás na aba Tomo.
 
- É possível testar e utilizar a versão mais recente em [MinoKael.github.io/magiasT20](https://MinoKael.github.io/gerador-ficha-magiasT20/).
+ É possível testar e utilizar a versão mais recente em [MinoKael.github.io/magiasT20](https://MinoKael.github.io/magiasT20/).
 
 
 ## Sugestões e Ideias
