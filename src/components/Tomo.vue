@@ -11,7 +11,7 @@ const { mdAndUp } = useDisplay();
   <v-container class="fill-height justify-center">
     <v-responsive
       class="text-center fill-height"
-      :max-width="mdAndUp ? 'max-width:1000' : ''"
+      :max-width="mdAndUp ? '1000' : ''"
     >
       <h1 class="text-h3 text-redTormenta font-weight-bold mb-2">
         Tomo de Magias

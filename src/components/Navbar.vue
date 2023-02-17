@@ -20,7 +20,7 @@ const toggleTheme = () => {
         >
       </v-btn-toggle>
 
-      <v-btn @click="toggleTheme">
+      <v-btn @click="toggleTheme" aria-label="Mudar tema">
         <v-icon>{{
           theme.global.current.value.dark
             ? "mdi-weather-sunny"
