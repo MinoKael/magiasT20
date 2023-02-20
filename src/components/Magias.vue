@@ -21,7 +21,7 @@ const filtroPesquisa = reactive({
 });
 
 const filtroOpcoes = reactive({
-  Tipo: ["Qualquer", "Arcana", "Divina"],
+  Tipo: ["Qualquer", "Arcana", "Divina", "Universal"],
   Círculo: ["Qualquer", 1, 2, 3, 4, 5],
   Escola: [
     "Qualquer",
@@ -224,7 +224,7 @@ const { mdAndUp } = useDisplay();
           rounded
           dense
           single-line
-          class="mx-4"
+          class="mx-4 custom-placeholer"
         >
         </v-text-field>
       </v-responsive>
@@ -269,3 +269,13 @@ const { mdAndUp } = useDisplay();
     </v-responsive>
   </v-container>
 </template>
+<style scoped>
+:deep(.v-label) {
+  color: white !important;
+  opacity: 1;
+  font-weight: bolder;
+}
+:deep(.custom-placeholer) {
+  font-weight: 100 !important;
+}
+</style>

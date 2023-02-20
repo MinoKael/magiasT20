@@ -540,7 +540,7 @@
   },
   {
     "id": 26,
-    "nome": "Barragem Elemental de Vectorius",
+    "nome": "Barragem Elemental",
     "tipo": "Arcana",
     "circulo": 5,
     "escola": "Evocação",
@@ -552,7 +552,7 @@
     "efeito": "4 esferas elementais",
     "duracao": "instantânea",
     "resistencia": "Reflexos parcial",
-    "texto": "Criada pelo arquimago Vectorius, esta magia produz quatro esferas, de ácido, eletricidade, fogo e frio, que voam até um ponto a sua escolha. Quando atingem o ponto escolhido, explodem causando 6d6 pontos de dano de seu respectivo tipo numa área com 12m de raio. Um teste de Reflexos reduz o dano à metade. Você pode mirar cada esfera em uma criatura ou ponto diferente. Uma criatura ao alcance da explosão de mais de uma esfera deve fazer um teste de resistência para cada uma. Além disso, as esferas causam os seguintes efeitos em criaturas que falharem em seus testes de resistência:\n• Ácido: vulnerável até o fim da cena.\n• Elétrica: atordoado por 1 rodada (apenas uma vez por cena).\n• Fogo: em chamas.\n• Frio: lento até o fim da cena.",
+    "texto": "Esta magia produz quatro esferas, de ácido, eletricidade, fogo e frio, que voam até um ponto a sua escolha. Quando atingem o ponto escolhido, explodem causando 6d6 pontos de dano de seu respectivo tipo numa área com 12m de raio. Um teste de Reflexos reduz o dano à metade. Você pode mirar cada esfera em uma criatura ou ponto diferente. Uma criatura ao alcance da explosão de mais de uma esfera deve fazer um teste de resistência para cada uma. Além disso, as esferas causam os seguintes efeitos em criaturas que falharem em seus testes de resistência:\n• Ácido: vulnerável até o fim da cena.\n• Elétrica: atordoado por 1 rodada (apenas uma vez por cena).\n• Fogo: em chamas.\n• Frio: lento até o fim da cena.",
     "aprimoramentos": [
       "+5 PM: aumenta o dano de cada esfera em +2d6.",
       "+5 PM: muda o tipo de dano de todas as esferas para essência (mas elas ainda causam os outros efeitos como se seu tipo de dano não mudasse)."
@@ -616,7 +616,7 @@
     "efeito": "buraco negro",
     "duracao": "3 rodadas",
     "resistencia": "Fortitude parcial",
-    "texto": "Esta magia cria um vácuo capaz de sugar tudo nas proximidades. Escolha um espaço desocupado para o buraco negro. No início de cada um de seus três turnos seguintes, todas as criaturas a até alcance longo do buraco negro, incluindo você, devem fazer um teste de Fortitude. Em caso de falha, ficam caídas e são puxadas 30m na direção do buraco. Objetos soltos também são puxados. Criaturas podem gastar uma ação de movimento para se segurar em algum objeto fixo, recebendo +2 em seus testes de resistência.\nCriaturas e objetos que iniciem seu turno no espaço do buraco negro devem gastar uma ação de movimento e fazer um teste de Fortitude. Se passarem, podem escapar se arrastando (deslocamento de 1,5m) para longe dele. Se falharem, perdem a ação (mas podem gastar outra para tentar novamente). Se terminarem seu turno no espaço do buraco negro, são sugadas, desaparecendo para sempre.\nNão se conhece o destino das coisas sugadas pelo buraco negro. Alguns estudiosos sugerem que são enviadas para outros mundos — provavelmente Sombria, reino da deusa Tenebra.",
+    "texto": "Esta magia cria um vácuo capaz de sugar tudo nas proximidades. Escolha um espaço desocupado para o buraco negro. No início de cada um de seus três turnos seguintes, todas as criaturas a até alcance longo do buraco negro, incluindo você, devem fazer um teste de Fortitude. Em caso de falha, ficam caídas e são puxadas 30m na direção do buraco. Objetos soltos também são puxados. Criaturas podem gastar uma ação de movimento para se segurar em algum objeto fixo, recebendo +2 em seus testes de resistência.\nCriaturas e objetos que iniciem seu turno no espaço do buraco negro devem gastar uma ação de movimento e fazer um teste de Fortitude. Se passarem, podem escapar se arrastando (deslocamento de 1,5m) para longe dele. Se falharem, perdem a ação (mas podem gastar outra para tentar novamente). Se terminarem seu turno no espaço do buraco negro, são sugadas, desaparecendo para sempre.",
     "aprimoramentos": ["+5 PM: muda o efeito para que você não seja afetado."],
     "referencia": "Tormenta 20 Jogo do Ano"
   },
@@ -739,7 +739,7 @@
     "efeito": "",
     "duracao": "1 dia",
     "resistencia": "Vontade parcial",
-    "texto": "Também conhecida como Lágrimas de Hyninn, esta magia é usada em tribunais e para proteger áreas sensíveis. Criaturas na área sofrem -10 em testes de Acrobacia, Enganação, Furtividade e Ladinagem e não podem mentir deliberadamente — mas podem tentar evitar perguntas que normalmente responderiam com uma mentira (sendo evasivas ou cometendo omissões, por exemplo). Uma criatura que passe na resistência tem as penalidades reduzidas para -5 e pode mentir.",
+    "texto": "Esta magia é usada em tribunais e para proteger áreas sensíveis. Criaturas na área sofrem -10 em testes de Acrobacia, Enganação, Furtividade e Ladinagem e não podem mentir deliberadamente — mas podem tentar evitar perguntas que normalmente responderiam com uma mentira (sendo evasivas ou cometendo omissões, por exemplo). Uma criatura que passe na resistência tem as penalidades reduzidas para -5 e pode mentir.",
     "aprimoramentos": [
       "+1 PM: muda a execução para ação padrão, o alcance para pessoal, o alvo para você, a duração para cena e a resistência para nenhuma. Em vez do normal, qualquer criatura ou objeto invisível em alcance curto se torna visível. Isso não dissipa o efeito mágico; se sair do seu alcance, a criatura ou objeto voltam a ficar invisíveis.",
       "+3 PM: muda a penalidade nas perícias para -10 (se passar na resistência) e -20 (se falhar). Requer 4º círculo.",
@@ -767,7 +767,7 @@
   },
   {
     "id": 37,
-    "nome": "Cólera de Azgher",
+    "nome": "Cólera do Deus-Sol",
     "tipo": "Divina",
     "circulo": 4,
     "escola": "Evocação",
@@ -1244,7 +1244,7 @@
   },
   {
     "id": 59,
-    "nome": "Crânio Voador de Vladislav",
+    "nome": "Crânio Voador",
     "tipo": "Arcana",
     "circulo": 2,
     "escola": "Necromancia",
@@ -1679,7 +1679,7 @@
   },
   {
     "id": 79,
-    "nome": "Enxame Rubro de Ichabod",
+    "nome": "Enxame Rubro",
     "tipo": "Arcana",
     "circulo": 3,
     "escola": "Convocação",
@@ -1937,7 +1937,7 @@
   },
   {
     "id": 91,
-    "nome": "Globo da Verdade de Gwen",
+    "nome": "Globo da Verdade",
     "tipo": "Divina",
     "circulo": 2,
     "escola": "Adivinhação",
@@ -2190,7 +2190,7 @@
   },
   {
     "id": 103,
-    "nome": "Lágrimas de Wynna",
+    "nome": "Lágrimas da Deusa da Magia",
     "tipo": "Divina",
     "circulo": 5,
     "escola": "Abjuração",
@@ -2205,13 +2205,13 @@
     "texto": "Se falhar no teste de resistência, o alvo perde a habilidade de lançar magias arcanas até o fim da cena. Se passar, perde a habilidade por uma rodada.",
     "aprimoramentos": [
       "+2 PM: muda a área para esfera com 6m de raio e o alvo para criaturas escolhidas.",
-      "+5 PM: muda a execução para um dia e adiciona custo adicional (sacrifício de 1 PM). O alvo da magia precisa ser mantido em alcance curto do conjurador durante toda a execução. Ao término, faz um teste de Vontade. Se falhar, perde a habilidade de lançar magias arcanas permanentemente. Se passar, resiste, mas ainda pode ser alvo da magia no dia seguinte. Nenhum poder mortal é capaz de reverter essa perda. Os clérigos de Wynna dizem que a deusa chora cada vez que este ritual é realizado."
+      "+5 PM: muda a execução para um dia e adiciona custo adicional (sacrifício de 1 PM). O alvo da magia precisa ser mantido em alcance curto do conjurador durante toda a execução. Ao término, faz um teste de Vontade. Se falhar, perde a habilidade de lançar magias arcanas permanentemente. Se passar, resiste, mas ainda pode ser alvo da magia no dia seguinte. Nenhum poder mortal é capaz de reverter essa perda."
     ],
     "referencia": "Tormenta 20 Jogo do Ano"
   },
   {
     "id": 104,
-    "nome": "Lança Ígnea de Aleph",
+    "nome": "Lança Ígnea",
     "tipo": "Arcana",
     "circulo": 3,
     "escola": "Evocação",
@@ -2223,7 +2223,7 @@
     "efeito": "",
     "duracao": "instantânea",
     "resistencia": "Reflexos parcial",
-    "texto": "Esta magia foi desenvolvida pelo mago imortal Aleph Olhos Vermelhos, um entusiasta dos estudos vulcânicos. Ela dispara um projétil de magma contra o alvo, que sofre 4d6 pontos de dano de fogo e 4d6 pontos de dano de perfuração e fica em chamas. As chamas causam 2d6 pontos de dano por rodada, em vez do dano normal. Se passar no teste de resistência, o alvo sofre metade do dano e não fica em chamas.\nRespingos de rocha incandescente se espalham com a explosão, atingindo todas as criaturas adjacentes ao alvo, que devem fazer um teste de Reflexos. Se falharem, ficam em chamas, como descrito acima.",
+    "texto": "Ela dispara um projétil de magma contra o alvo, que sofre 4d6 pontos de dano de fogo e 4d6 pontos de dano de perfuração e fica em chamas. As chamas causam 2d6 pontos de dano por rodada, em vez do dano normal. Se passar no teste de resistência, o alvo sofre metade do dano e não fica em chamas.\nRespingos de rocha incandescente se espalham com a explosão, atingindo todas as criaturas adjacentes ao alvo, que devem fazer um teste de Reflexos. Se falharem, ficam em chamas, como descrito acima.",
     "aprimoramentos": [
       "+3 PM: aumenta o dano inicial em +2d6 e o dano do efeito em chamas em +1d6.",
       "+4 PM: muda a duração para cena ou até ser descarregada. Em vez do efeito normal, a magia cria quatro dardos de lava que flutuam ao lado do conjurador. Uma vez por rodada, como uma ação livre, você pode disparar um dos dardos em uma criatura, causando o efeito normal da magia. Requer 4º círculo."
@@ -2442,7 +2442,7 @@
   },
   {
     "id": 115,
-    "nome": "Mão Poderosa de Talude",
+    "nome": "Mão Poderosa",
     "tipo": "Arcana",
     "circulo": 4,
     "escola": "Convocação",
@@ -3217,7 +3217,7 @@
   },
   {
     "id": 151,
-    "nome": "Relâmpago Flamejante de Reynard",
+    "nome": "Relâmpago Flamejante",
     "tipo": "Arcana",
     "circulo": 4,
     "escola": "Evocação",
@@ -3229,7 +3229,7 @@
     "efeito": "bolas de fogo e relâmpagos",
     "duracao": "sustentada",
     "resistencia": "Reflexos reduz à metade",
-    "texto": "Esta é uma magia poderosa, desenvolvida pelo metódico e impassível arquimago Reynard. Você invoca as energias elementais do fogo e do relâmpago, fazendo com que uma de suas mãos fique em chamas e a outra mão eletrificada. Pela duração da magia, você pode gastar uma ação de movimento para disparar uma bola de fogo (10d6 pontos de dano de fogo numa esfera com 6m de raio) ou um relâmpago (10d6 pontos de dano de eletricidade numa linha). Você também pode, como uma ação padrão, usar as duas mãos num ataque de energia mista (20d12 pontos de dano, metade de fogo e metade de eletricidade, numa esfera com 9m de raio). Você precisa estar com as duas mãos livres para invocar o efeito misto e isso consome toda a energia da magia, terminando-a imediatamente. Por se tratar de um ritual complexo, o tempo de execução dessa magia não pode ser reduzido.",
+    "texto": "Você invoca as energias elementais do fogo e do relâmpago, fazendo com que uma de suas mãos fique em chamas e a outra mão eletrificada. Pela duração da magia, você pode gastar uma ação de movimento para disparar uma bola de fogo (10d6 pontos de dano de fogo numa esfera com 6m de raio) ou um relâmpago (10d6 pontos de dano de eletricidade numa linha). Você também pode, como uma ação padrão, usar as duas mãos num ataque de energia mista (20d12 pontos de dano, metade de fogo e metade de eletricidade, numa esfera com 9m de raio). Você precisa estar com as duas mãos livres para invocar o efeito misto e isso consome toda a energia da magia, terminando-a imediatamente. Por se tratar de um ritual complexo, o tempo de execução dessa magia não pode ser reduzido.",
     "aprimoramentos": [
       "+2 PM: aumenta o dano das rajadas em +1d6 e o dano da rajada mista em +2d12."
     ],
@@ -3514,7 +3514,7 @@
   },
   {
     "id": 165,
-    "nome": "Seta Infalível de Talude",
+    "nome": "Seta Infalível",
     "tipo": "Arcana",
     "circulo": 1,
     "escola": "Evocação",
@@ -3558,7 +3558,7 @@
   },
   {
     "id": 167,
-    "nome": "Soco de Arsenal",
+    "nome": "Soco Divino",
     "tipo": "Divina",
     "circulo": 2,
     "escola": "Convocação",
@@ -3570,7 +3570,7 @@
     "efeito": "",
     "duracao": "instantânea",
     "resistencia": "Fortitude parcial",
-    "texto": "Ninguém sabe se Mestre Arsenal foi realmente o criador desta magia — mas ele foi o primeiro a utilizá-la. Você fecha o punho e gesticula como se estivesse golpeando o alvo, causando dano de impacto igual a 4d6 + sua Força. A vítima é empurrada 3m na direção oposta à sua. Passar no teste de resistência reduz o dano à metade e evita o empurrão.",
+    "texto": "Você fecha o punho e gesticula como se estivesse golpeando o alvo, causando dano de impacto igual a 4d6 + sua Força. A vítima é empurrada 3m na direção oposta à sua. Passar no teste de resistência reduz o dano à metade e evita o empurrão.",
     "aprimoramentos": [
       "+1 PM: muda o alcance para pessoal, o alvo para você, a duração para cena e a resistência para nenhuma. Em vez do normal, seus ataques corpo a corpo passam a acertar inimigos distantes. Seu alcance natural aumenta em 3m; uma criatura Média pode atacar adversários a até 4,5m, por exemplo.",
       "+2 PM: aumenta o dano em +1d6.",
@@ -3729,7 +3729,7 @@
   },
   {
     "id": 175,
-    "nome": "Talho Invisível de Edauros",
+    "nome": "Talho Invisível",
     "tipo": "Arcana",
     "circulo": 4,
     "escola": "Evocação",
@@ -3741,7 +3741,7 @@
     "efeito": "",
     "duracao": "instantânea",
     "resistencia": "Fortitude parcial",
-    "texto": "Esta magia cruel foi desenvolvida pelo mago de combate Edauros, quando ainda era um bípede. Você faz um gesto rápido e dispara uma lâmina de ar em alta velocidade. Criaturas na área sofrem 10d8 pontos de dano de corte e ficam sangrando. Alvos que passem no teste de resistência sofrem metade do dano e não ficam sangrando.",
+    "texto": "Você faz um gesto rápido e dispara uma lâmina de ar em alta velocidade. Criaturas na área sofrem 10d8 pontos de dano de corte e ficam sangrando. Alvos que passem no teste de resistência sofrem metade do dano e não ficam sangrando.",
     "aprimoramentos": [
       "+2 PM: aumenta o dano em +2d8.",
       "+2 PM: muda o alvo para você, a duração para sustentada e o efeito para uma vez por rodada, como uma ação de movimento, você pode disparar uma lâmina de ar contra um alvo em alcance médio, causando 6d8 pontos de dano de corte (Fortitude reduz à metade)."
