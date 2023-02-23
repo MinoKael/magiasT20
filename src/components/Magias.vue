@@ -278,4 +278,7 @@ const { mdAndUp } = useDisplay();
 :deep(.custom-placeholer) {
   font-weight: 100 !important;
 }
+:deep(.v-field--active) {
+  font-weight: 400 !important;
+}
 </style>
