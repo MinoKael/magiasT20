@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, reactive } from "vue";
+import { ref, watch, reactive, computed } from "vue";
 import m from "../data/Magias.json";
 import Card from "./Card.vue";
 import { useDisplay } from "vuetify";
@@ -208,6 +208,13 @@ const emit = defineEmits(["emitTomo"]);
 const tomo = defineProps(["tomo"]);
 
 const { mdAndUp } = useDisplay();
+
+// LÓGICA CARREGAR MAIS
+const loadMore = () => {
+  return magias.value.length > size.value ? true : false;
+};
+const size = ref(51);
+const posts = computed(() => magias.value.slice(0, size.value));
 </script>
 <template>
   <!-- MAGIAS CONTAINER -->
@@ -263,9 +270,12 @@ const { mdAndUp } = useDisplay();
       </h4>
       <!-- CARDS CONTAINER -->
 
-      <v-container class="d-flex flex-wrap justify-center pt-1">
+      <v-container
+        class="d-flex flex-wrap justify-center pt-1"
+        ref="scrollComponent"
+      >
         <Card
-          v-for="magia in magias"
+          v-for="magia in posts"
           :key="magia.id"
           :prop="magia"
           :tomo="tomo.tomo"
@@ -273,6 +283,9 @@ const { mdAndUp } = useDisplay();
           v-bind="$attrs"
         />
       </v-container>
+      <v-btn v-if="loadMore()" @click="size = magias.length" class="mb-1"
+        >Carregar Mais</v-btn
+      >
     </v-responsive>
   </v-container>
 </template>
