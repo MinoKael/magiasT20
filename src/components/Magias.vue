@@ -77,6 +77,13 @@ const filtroOpcoes = reactive({
 
 watch(filtroPesquisa, () => {
   magias.value = m.filter(function (magia) {
+    // LÓGICA FILTRO TIPO
+    const tipo = ref(null);
+    tipo.value =
+      magia.tipo == "Universal"
+        ? true
+        : false || magia.tipo.includes(replaceQualquer(filtroPesquisa.tipo));
+
     // LÓGICA FILTRO EXECUÇÃO
     const execucao = ref(null);
     filtroPesquisa.execucao == "Outros"
@@ -163,7 +170,7 @@ watch(filtroPesquisa, () => {
 
     return (
       toNormal(magia.nome).includes(filtroPesquisa.nome.toLowerCase()) &&
-      magia.tipo.includes(replaceQualquer(filtroPesquisa.tipo)) &&
+      tipo.value &&
       magia.circulo
         .toString()
         .includes(replaceQualquer(filtroPesquisa.circulo)) &&
