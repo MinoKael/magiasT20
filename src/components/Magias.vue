@@ -213,7 +213,7 @@ const { mdAndUp } = useDisplay();
 const loadMore = () => {
   return magias.value.length > size.value ? true : false;
 };
-const size = ref(51);
+const size = ref(30);
 const posts = computed(() => magias.value.slice(0, size.value));
 </script>
 <template>
