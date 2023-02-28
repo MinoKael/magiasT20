@@ -270,10 +270,7 @@ const posts = computed(() => magias.value.slice(0, size.value));
       </h4>
       <!-- CARDS CONTAINER -->
 
-      <v-container
-        class="d-flex flex-wrap justify-center pt-1"
-        ref="scrollComponent"
-      >
+      <v-container class="d-flex flex-wrap justify-center pt-1">
         <Card
           v-for="magia in posts"
           :key="magia.id"
