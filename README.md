@@ -5,14 +5,9 @@
 
  É possível testar e utilizar a versão mais recente em [MinoKael.github.io/magiasT20](https://MinoKael.github.io/magiasT20/).
 
-
 ## Sugestões e Ideias
 
-Se você tem alguma sugestão ou ideia, crie um tópico [aqui](https://github.com/MinoKael/magiasT20/discussions)
-
-## Contribua
-
-Sinta-se a vontade para contribuir com este código tal como dar feedback e sugestões. Você pode fazer isso utilizando o sistema de Discussões do GitHub.
+Sinta-se a vontade para contribuir com este código tal como dar feedback e sugestões. Se você tem alguma sugestão ou ideia, crie um tópico [aqui](https://github.com/MinoKael/magiasT20/discussions).
 
 ### Contribuições no código
 
